@@ -38,7 +38,7 @@ export default function HomePage() {
           The AI assistant for the EdLight ecosystem
         </p>
         <p className="mb-10 max-w-md text-sm leading-relaxed text-gray-400 dark:text-gray-500">
-          Navigate EdLight platforms, find documentation, and get answers instantly — in
+          Navigate EdLight platforms, find documentation, and get answers instantly in
           English, French, and Haitian Creole.
         </p>
 
@@ -131,11 +131,20 @@ export default function HomePage() {
         {/* Footer */}
         <div className="mt-20 flex flex-col items-center gap-3">
           <div className="flex items-center gap-4 text-xs text-gray-400 dark:text-gray-500">
-            <span className="flex items-center gap-1">🇺🇸 English</span>
+            <span className="flex items-center gap-1.5">
+              <img src="https://flagcdn.com/w20/us.png" width="16" height="12" alt="US flag" className="rounded-sm" />
+              English
+            </span>
             <span className="h-3 w-px bg-gray-300 dark:bg-gray-700" />
-            <span className="flex items-center gap-1">🇫🇷 Français</span>
+            <span className="flex items-center gap-1.5">
+              <img src="https://flagcdn.com/w20/fr.png" width="16" height="12" alt="France flag" className="rounded-sm" />
+              Français
+            </span>
             <span className="h-3 w-px bg-gray-300 dark:bg-gray-700" />
-            <span className="flex items-center gap-1">🇭🇹 Kreyòl Ayisyen</span>
+            <span className="flex items-center gap-1.5">
+              <img src="https://flagcdn.com/w20/ht.png" width="16" height="12" alt="Haiti flag" className="rounded-sm" />
+              Kreyòl Ayisyen
+            </span>
           </div>
           <p className="text-[11px] text-gray-300 dark:text-gray-600">
             Powered by Sandra AI · EdLight Initiative
